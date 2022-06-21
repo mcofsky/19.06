@@ -1,0 +1,40 @@
+*,
+*::after,
+*::before
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+
+
+html{
+    font-size: 20px;
+    
+}
+.HeadWrapp {
+    display: flex;
+    padding: 10px 25px;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(./football.jpg);
+    color: beige;
+    
+
+    
+}
+
+.MainText {
+ 
+    font-size: 1rem;
+    padding: 5px;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    gap: 15px;
+    flex: wrap;  
+    background-color: rgb(119, 118, 117);
+    border: 2px solid;
+}
